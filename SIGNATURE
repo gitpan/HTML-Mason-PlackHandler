@@ -1,0 +1,38 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.64.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 ac28c491611c716125672a8471327525d720a1a5 Changes
+SHA1 24680eb2a8fe871c0f35e23caa5b528f4101a21b LICENSE
+SHA1 520a49f1ddc308de666b7e079597b1347f8af334 MANIFEST
+SHA1 07cb057525380f5e135ef5e5dcb3d327862c8a60 META.json
+SHA1 e0012612520d986a691d3b2ecf0e89f75f7d3552 META.yml
+SHA1 c226fa20ba63cbdc4ac5515ead4ae9ee34ec72f1 Makefile.PL
+SHA1 20f5625852f4947088b5c4732e45e9100d03fd98 README.md
+SHA1 9fd106c6c05be289539847bca4a466cd65d1b2c7 dist.ini
+SHA1 198ccf56c38b2fa9d91ac156d92636ab8fb7a7e5 lib/HTML/Mason/PlackHandler.pm
+SHA1 a51b15b118f0b7039d34970a41b88150d35c9f72 t/basic.t
+SHA1 dc8e7062ea7f180e6c05168d2957b09b6726b152 t/tpl/autohandler
+SHA1 d0a2d56f4ebf8cb3acff50cf0ee20397065e7628 t/tpl/dhandler
+SHA1 9eb983284ec4516c026b65e6dad3df30b6ffb034 t/tpl/headers
+SHA1 c17665332d8fe568266a709f3a45a9f094329aef t/tpl/index.html
+SHA1 8addb8664ee7fdfe08714833bb3d386d00dd7dc7 t/tpl/params
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (Darwin)
+
+iEYEARECAAYFAkzPWFYACgkQR0BL4gbYw3RHFACbBv5XRHvYhmlZgWq5gGybs0fF
+ZF8AnjBcFPWhGw1Ps01dcKxcfcY1zab9
+=8FGB
+-----END PGP SIGNATURE-----
