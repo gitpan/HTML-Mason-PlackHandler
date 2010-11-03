@@ -13,9 +13,9 @@ meta-spec:
   version: 1.4
 name: HTML-Mason-PlackHandler
 requires:
-  HTML::Masin: 1.45
+  HTML::Mason: 1.45
   Plack: 0.9913
   parent: 0.223
 resources:
   repository: git://github.com/gbarr/HTML-Mason-PlackHandler.git
-version: 0.103060
+version: 0.103070

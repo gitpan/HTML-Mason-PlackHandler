@@ -21,7 +21,7 @@
       },
       "runtime" : {
          "requires" : {
-            "HTML::Masin" : "1.45",
+            "HTML::Mason" : "1.45",
             "Plack" : "0.9913",
             "parent" : "0.223"
          }
@@ -35,6 +35,6 @@
          "web" : "http://github.com/gbarr/HTML-Mason-PlackHandler"
       }
    },
-   "version" : "0.103060"
+   "version" : "0.103070"
 }
 

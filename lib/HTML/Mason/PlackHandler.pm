@@ -1,6 +1,6 @@
 package HTML::Mason::PlackHandler;
 BEGIN {
-  $HTML::Mason::PlackHandler::VERSION = '0.103060';
+  $HTML::Mason::PlackHandler::VERSION = '0.103070';
 }
 
 use strict;
@@ -136,7 +136,7 @@ sub handle_request {
 ###########################################################
 package HTML::Mason::Request::Plack;
 BEGIN {
-  $HTML::Mason::Request::Plack::VERSION = '0.103060';
+  $HTML::Mason::Request::Plack::VERSION = '0.103070';
 }
 
 use base qw(HTML::Mason::Request);
@@ -161,7 +161,7 @@ sub redirect {
 ###########################################################
 package HTML::Mason::Request::Plack::Redirect;
 BEGIN {
-  $HTML::Mason::Request::Plack::Redirect::VERSION = '0.103060';
+  $HTML::Mason::Request::Plack::Redirect::VERSION = '0.103070';
 }
 
 use overload '0+' => sub { shift->{status} }, fallback => 1;
@@ -175,7 +175,7 @@ HTML::Mason::PlackHandler - HTML::Mason handler using Plack::Request and Plack::
 
 =head1 VERSION
 
-version 0.103060
+version 0.103070
 
 =head1 SYNOPSIS
 

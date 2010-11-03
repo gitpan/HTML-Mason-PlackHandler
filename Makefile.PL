@@ -20,11 +20,11 @@ my %WriteMakefileArgs = (
   'LICENSE' => 'perl',
   'NAME' => 'HTML::Mason::PlackHandler',
   'PREREQ_PM' => {
-    'HTML::Masin' => '1.45',
+    'HTML::Mason' => '1.45',
     'Plack' => '0.9913',
     'parent' => '0.223'
   },
-  'VERSION' => '0.103060',
+  'VERSION' => '0.103070',
   'test' => {
     'TESTS' => 't/*.t'
   }
